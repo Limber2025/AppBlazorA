@@ -13,5 +13,6 @@ namespace AppBlazor.Entities
         [Required (ErrorMessage ="El resumen es requerido")]
         [MinLength(20,ErrorMessage ="La longitud minima es 20 caracteres")]
         public string resumen { get; set; } = null!;
+        public int nroHojas { get; set; }
     }
 }
